@@ -1,0 +1,38 @@
+export const offers = [
+  {
+    id: 1,
+    title: '50% OFF',
+    code: 'FOODIE50',
+    discount: '50% OFF',
+    minOrder: '₹399',
+    expiry: '24 Oct 2026',
+    type: 'percent',
+  },
+  {
+    id: 2,
+    title: '₹100 OFF',
+    code: 'WELCOME100',
+    discount: '₹100 OFF',
+    minOrder: '₹799',
+    expiry: '30 Oct 2026',
+    type: 'amount',
+  },
+  {
+    id: 3,
+    title: 'FREE DELIVERY',
+    code: 'FREEDELIVERY',
+    discount: 'Free Delivery',
+    minOrder: '₹599',
+    expiry: '12 Nov 2026',
+    type: 'delivery',
+  },
+  {
+    id: 4,
+    title: 'BUY 1 GET 1',
+    code: 'FIRSTORDER',
+    discount: 'Buy 1 Get 1',
+    minOrder: '₹499',
+    expiry: '15 Nov 2026',
+    type: 'combo',
+  },
+]

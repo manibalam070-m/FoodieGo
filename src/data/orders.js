@@ -1,0 +1,32 @@
+export const sampleOrders = [
+  {
+    id: 'FDG-20260924-1001',
+    restaurant: 'Madurai Spice House',
+    status: 'active',
+    items: ['Veg Biryani', 'Curd Rice'],
+    total: 499,
+    date: '2026-09-24T18:42:00',
+    address: 'Home · 15, Lake View Road, Chennai',
+    eta: '15-20 min',
+  },
+  {
+    id: 'FDG-20260920-1002',
+    restaurant: 'Pizza Street',
+    status: 'completed',
+    items: ['Farmhouse Pizza', 'Garlic Bread'],
+    total: 690,
+    date: '2026-09-20T20:15:00',
+    address: 'Work · 80, Mount Road, Chennai',
+    eta: 'Delivered',
+  },
+  {
+    id: 'FDG-20260918-1003',
+    restaurant: 'Burger District',
+    status: 'cancelled',
+    items: ['Classic Burger'],
+    total: 240,
+    date: '2026-09-18T13:30:00',
+    address: 'Other · 22, MRC Nagar, Chennai',
+    eta: 'Cancelled',
+  },
+]
